@@ -15,6 +15,34 @@ const LANGUAGE_TO_LOCALE = {
   zh: "zh-CN"
 };
 
+const KEYWORD_RULES = [
+  { key: "json", pattern: /\bjson\b/i },
+  { key: "csv", pattern: /\bcsv\b/i },
+  { key: "xml", pattern: /\bxml\b/i },
+  { key: "yaml", pattern: /\byaml\b/i },
+  { key: "sql", pattern: /\bsql\b/i },
+  { key: "base64", pattern: /\bbase64\b/i },
+  { key: "regex", pattern: /\bregex|regular expression\b/i },
+  { key: "jwt", pattern: /\bjwt\b/i },
+  { key: "uuid", pattern: /\buuid\b/i },
+  { key: "hash", pattern: /\bhash|sha-?\d+|md5\b/i },
+  { key: "url", pattern: /\burl\b/i },
+  { key: "api", pattern: /\bapi\b/i },
+  { key: "qr-barcode", pattern: /\bqr\b|barcode/i },
+  { key: "image", pattern: /\bimage|img|png|jpg|jpeg|gif|svg|webp\b/i },
+  { key: "pdf", pattern: /\bpdf\b/i },
+  { key: "text", pattern: /\btext|string|markdown|md\b/i },
+  { key: "encoding", pattern: /\bencode|decode|unicode|ascii|utf-?\d+\b/i },
+  { key: "converter", pattern: /\bconvert(?:er|ing)?|conversion|transcod(?:e|er|ing)\b/i },
+  { key: "formatter", pattern: /\bformat(?:ter|ting)?|pretty\b/i },
+  { key: "validator", pattern: /\bvalidat(?:e|or|ion)|lint|checker\b/i },
+  { key: "generator", pattern: /\bgenerat(?:e|or|ion)\b/i },
+  { key: "calculator", pattern: /\bcalculat(?:e|or|ion)|estimator|counter\b/i },
+  { key: "security", pattern: /\bsecurity|encrypt|decrypt|token\b/i },
+  { key: "network", pattern: /\bnetwork|dns|http|ip|ping\b/i },
+  { key: "dev", pattern: /\bdeveloper|dev\b/i }
+];
+
 const I18N = {
   ko: {
     meta: {
@@ -42,13 +70,43 @@ const I18N = {
       filterAria: "프로젝트 필터",
       searchLabel: "프로젝트 검색",
       searchPlaceholder: "프로젝트 이름/설명/스택 검색",
-      all: "전체"
+      all: "전체",
+      typeFilterTitle: "유형 필터",
+      keywordFilterTitle: "키워드 필터",
+      allKeywords: "전체 키워드"
     },
     languageNames: {
       ko: "한국어",
       en: "영어",
       ja: "일본어",
       zh: "중국어"
+    },
+    keywordLabels: {
+      json: "JSON",
+      csv: "CSV",
+      xml: "XML",
+      yaml: "YAML",
+      sql: "SQL",
+      base64: "Base64",
+      regex: "정규식",
+      jwt: "JWT",
+      uuid: "UUID",
+      hash: "해시",
+      url: "URL",
+      api: "API",
+      "qr-barcode": "QR/바코드",
+      image: "이미지",
+      pdf: "PDF",
+      text: "텍스트",
+      encoding: "인코딩",
+      converter: "변환",
+      formatter: "포맷",
+      validator: "검증",
+      generator: "생성",
+      calculator: "계산",
+      security: "보안",
+      network: "네트워크",
+      dev: "개발"
     },
     content: {
       title: "프로젝트 목록",
@@ -109,13 +167,43 @@ const I18N = {
       filterAria: "Project filters",
       searchLabel: "Search projects",
       searchPlaceholder: "Search by name, description, or stack",
-      all: "All"
+      all: "All",
+      typeFilterTitle: "Type Filters",
+      keywordFilterTitle: "Keyword Filters",
+      allKeywords: "All Keywords"
     },
     languageNames: {
       ko: "Korean",
       en: "English",
       ja: "Japanese",
       zh: "Chinese"
+    },
+    keywordLabels: {
+      json: "JSON",
+      csv: "CSV",
+      xml: "XML",
+      yaml: "YAML",
+      sql: "SQL",
+      base64: "Base64",
+      regex: "Regex",
+      jwt: "JWT",
+      uuid: "UUID",
+      hash: "Hash",
+      url: "URL",
+      api: "API",
+      "qr-barcode": "QR/Barcode",
+      image: "Image",
+      pdf: "PDF",
+      text: "Text",
+      encoding: "Encoding",
+      converter: "Converter",
+      formatter: "Formatter",
+      validator: "Validator",
+      generator: "Generator",
+      calculator: "Calculator",
+      security: "Security",
+      network: "Network",
+      dev: "Dev"
     },
     content: {
       title: "Project List",
@@ -176,13 +264,43 @@ const I18N = {
       filterAria: "プロジェクトフィルター",
       searchLabel: "プロジェクト検索",
       searchPlaceholder: "名前・説明・技術スタックで検索",
-      all: "すべて"
+      all: "すべて",
+      typeFilterTitle: "タイプフィルター",
+      keywordFilterTitle: "キーワードフィルター",
+      allKeywords: "全キーワード"
     },
     languageNames: {
       ko: "韓国語",
       en: "英語",
       ja: "日本語",
       zh: "中国語"
+    },
+    keywordLabels: {
+      json: "JSON",
+      csv: "CSV",
+      xml: "XML",
+      yaml: "YAML",
+      sql: "SQL",
+      base64: "Base64",
+      regex: "正規表現",
+      jwt: "JWT",
+      uuid: "UUID",
+      hash: "ハッシュ",
+      url: "URL",
+      api: "API",
+      "qr-barcode": "QR/バーコード",
+      image: "画像",
+      pdf: "PDF",
+      text: "テキスト",
+      encoding: "エンコード",
+      converter: "変換",
+      formatter: "整形",
+      validator: "検証",
+      generator: "生成",
+      calculator: "計算",
+      security: "セキュリティ",
+      network: "ネットワーク",
+      dev: "開発"
     },
     content: {
       title: "プロジェクト一覧",
@@ -243,13 +361,43 @@ const I18N = {
       filterAria: "项目筛选",
       searchLabel: "搜索项目",
       searchPlaceholder: "按名称、描述或技术栈搜索",
-      all: "全部"
+      all: "全部",
+      typeFilterTitle: "类型筛选",
+      keywordFilterTitle: "关键词筛选",
+      allKeywords: "全部关键词"
     },
     languageNames: {
       ko: "韩语",
       en: "英语",
       ja: "日语",
       zh: "中文"
+    },
+    keywordLabels: {
+      json: "JSON",
+      csv: "CSV",
+      xml: "XML",
+      yaml: "YAML",
+      sql: "SQL",
+      base64: "Base64",
+      regex: "正则",
+      jwt: "JWT",
+      uuid: "UUID",
+      hash: "哈希",
+      url: "URL",
+      api: "API",
+      "qr-barcode": "二维码/条码",
+      image: "图像",
+      pdf: "PDF",
+      text: "文本",
+      encoding: "编码",
+      converter: "转换",
+      formatter: "格式化",
+      validator: "校验",
+      generator: "生成",
+      calculator: "计算",
+      security: "安全",
+      network: "网络",
+      dev: "开发"
     },
     content: {
       title: "项目列表",
@@ -289,6 +437,7 @@ const I18N = {
 const state = {
   projects: [],
   selectedType: "ALL",
+  selectedKeyword: "ALL",
   query: "",
   language: detectInitialLanguage()
 };
@@ -302,6 +451,7 @@ const els = {
   filterSection: document.getElementById("filter-section"),
   searchInput: document.getElementById("search-input"),
   typeFilters: document.getElementById("type-filters"),
+  keywordFilters: document.getElementById("keyword-filters"),
   resultCount: document.getElementById("result-count"),
   projectGrid: document.getElementById("project-grid"),
   emptyState: document.getElementById("empty-state")
@@ -430,24 +580,77 @@ function flattenLocalizedText(value) {
   return Object.values(value).filter((entry) => typeof entry === "string").join(" ");
 }
 
+function normalizeKeywordToken(value) {
+  return String(value)
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^\p{L}\p{N}-]/gu, "")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function normalizeKeywordList(value) {
+  return toSafeArray(value)
+    .map((item) => normalizeKeywordToken(item))
+    .filter(Boolean);
+}
+
+function deriveKeywords(project) {
+  const text = [
+    project.id,
+    flattenLocalizedText(project.name),
+    flattenLocalizedText(project.description),
+    ...project.stack.map((item) => flattenLocalizedText(item)),
+    project.links.service,
+    project.links.docs
+  ]
+    .join(" ")
+    .toLowerCase();
+
+  return KEYWORD_RULES
+    .filter((rule) => rule.pattern.test(text))
+    .map((rule) => rule.key);
+}
+
+function uniqueKeywords(list) {
+  return [...new Set(list)];
+}
+
+function humanizeKeyword(keyword) {
+  return keyword
+    .split("-")
+    .map((part) => (part.length <= 4 ? part.toUpperCase() : part.charAt(0).toUpperCase() + part.slice(1)))
+    .join(" ");
+}
+
 function normalizeProjects(projects) {
-  return projects.map((project, index) => ({
-    id: project.id ?? `project-${index + 1}`,
-    name: project.name ?? {
-      ko: "이름 없는 프로젝트",
-      en: "Untitled Project"
-    },
-    description: project.description ?? "",
-    type: (project.type ?? "other").toLowerCase(),
-    stack: toSafeArray(project.stack),
-    links: {
-      service: project.links?.service ?? "",
-      repo: project.links?.repo ?? "",
-      docs: project.links?.docs ?? ""
-    },
-    status: (project.status ?? "planning").toLowerCase(),
-    updatedAt: project.updatedAt ?? null
-  }));
+  return projects.map((project, index) => {
+    const normalizedProject = {
+      id: project.id ?? `project-${index + 1}`,
+      name: project.name ?? {
+        ko: "이름 없는 프로젝트",
+        en: "Untitled Project"
+      },
+      description: project.description ?? "",
+      type: (project.type ?? "other").toLowerCase(),
+      stack: toSafeArray(project.stack),
+      links: {
+        service: project.links?.service ?? "",
+        repo: project.links?.repo ?? "",
+        docs: project.links?.docs ?? ""
+      },
+      status: (project.status ?? "planning").toLowerCase(),
+      updatedAt: project.updatedAt ?? null,
+      keywords: []
+    };
+
+    const explicitKeywords = normalizeKeywordList(project.keywords);
+    const inferredKeywords = deriveKeywords(normalizedProject);
+    normalizedProject.keywords = uniqueKeywords([...explicitKeywords, ...inferredKeywords]);
+
+    return normalizedProject;
+  });
 }
 
 async function loadProjects() {
@@ -472,6 +675,14 @@ function typeLabel(type) {
 
 function statusLabel(status) {
   return localizedLookup("statuses", status, localizedLookup("statuses", "planning", "planning"));
+}
+
+function projectsMatchingType(projects) {
+  return projects.filter((project) => state.selectedType === "ALL" || project.type === state.selectedType);
+}
+
+function keywordLabel(keyword) {
+  return localizedLookup("keywordLabels", keyword, humanizeKeyword(keyword));
 }
 
 function formatDate(value) {
@@ -523,11 +734,54 @@ function buildTypeFilters(projects) {
   });
 }
 
+function buildKeywordFilters(projects) {
+  const keywordCounts = new Map();
+
+  projectsMatchingType(projects).forEach((project) => {
+    project.keywords.forEach((keyword) => {
+      keywordCounts.set(keyword, (keywordCounts.get(keyword) ?? 0) + 1);
+    });
+  });
+
+  const keywordEntries = [...keywordCounts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+
+  if (state.selectedKeyword !== "ALL" && !keywordCounts.has(state.selectedKeyword)) {
+    state.selectedKeyword = "ALL";
+  }
+
+  els.keywordFilters.innerHTML = "";
+
+  const allBtn = document.createElement("button");
+  allBtn.type = "button";
+  allBtn.className = `chip${state.selectedKeyword === "ALL" ? " is-active" : ""}`;
+  allBtn.dataset.keyword = "ALL";
+  allBtn.textContent = t("controls.allKeywords");
+  allBtn.addEventListener("click", () => {
+    state.selectedKeyword = "ALL";
+    render();
+  });
+  els.keywordFilters.append(allBtn);
+
+  keywordEntries.forEach(([keyword, count]) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `chip${state.selectedKeyword === keyword ? " is-active" : ""}`;
+    btn.dataset.keyword = keyword;
+    btn.textContent = `${keywordLabel(keyword)} (${count})`;
+    btn.addEventListener("click", () => {
+      state.selectedKeyword = keyword;
+      render();
+    });
+    els.keywordFilters.append(btn);
+  });
+}
+
 function filteredProjects() {
   const query = state.query.trim().toLowerCase();
-  return state.projects.filter((project) => {
-    const typeMatch = state.selectedType === "ALL" || project.type === state.selectedType;
-    if (!typeMatch) {
+  return projectsMatchingType(state.projects).filter((project) => {
+    const keywordMatch = state.selectedKeyword === "ALL" || project.keywords.includes(state.selectedKeyword);
+    if (!keywordMatch) {
       return false;
     }
 
@@ -540,7 +794,8 @@ function filteredProjects() {
       flattenLocalizedText(project.name),
       flattenLocalizedText(project.description),
       project.type,
-      stackText
+      stackText,
+      ...project.keywords
     ]
       .join(" ")
       .toLowerCase();
@@ -631,6 +886,7 @@ function render() {
   applyTranslations();
   renderStats(state.projects);
   buildTypeFilters(state.projects);
+  buildKeywordFilters(state.projects);
   renderProjects(filteredProjects());
 }
 

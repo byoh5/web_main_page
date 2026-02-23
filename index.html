@@ -66,7 +66,14 @@
         <span class="sr-only" data-i18n="controls.searchLabel">프로젝트 검색</span>
         <input id="search-input" type="search" data-i18n-placeholder="controls.searchPlaceholder" placeholder="프로젝트 이름/설명/스택 검색">
       </label>
-      <div id="type-filters" class="filters" role="list"></div>
+      <div class="filter-group">
+        <p class="filter-title" data-i18n="controls.typeFilterTitle">유형 필터</p>
+        <div id="type-filters" class="filters" role="list"></div>
+      </div>
+      <div class="filter-group">
+        <p class="filter-title" data-i18n="controls.keywordFilterTitle">키워드 필터</p>
+        <div id="keyword-filters" class="filters" role="list"></div>
+      </div>
     </section>
 
     <section class="content">
