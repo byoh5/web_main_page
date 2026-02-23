@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "main-page",
+      "name": "Dev Launchpad",
+      "description": "개별 웹앱을 모아 보여주는 메인 허브 페이지",
+      "type": "web",
+      "status": "active",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "#",
+        "repo": "#",
+        "docs": "#"
+      }
+    },
+    {
+      "id": "portfolio-kit",
+      "name": "Portfolio Kit",
+      "description": "프로젝트 소개 템플릿과 컴포넌트를 재사용 가능한 형태로 구성",
+      "type": "tool",
+      "status": "planning",
+      "stack": ["TypeScript", "Vite"],
+      "updatedAt": "2026-02-20",
+      "links": {
+        "service": "",
+        "repo": "#",
+        "docs": ""
+      }
+    },
+    {
+      "id": "ai-helper",
+      "name": "AI Helper",
+      "description": "반복 작업을 줄이는 사내 도구형 챗 인터페이스 실험",
+      "type": "ai",
+      "status": "planning",
+      "stack": ["Next.js", "OpenAI API"],
+      "updatedAt": "2026-02-18",
+      "links": {
+        "service": "",
+        "repo": "#",
+        "docs": "#"
+      }
+    },
+    {
+      "id": "mobile-viewer",
+      "name": "Mobile Viewer",
+      "description": "모바일 UX 테스트용 프리뷰 빌드",
+      "type": "mobile",
+      "status": "archived",
+      "stack": ["React", "PWA"],
+      "updatedAt": "2026-01-12",
+      "links": {
+        "service": "",
+        "repo": "#",
+        "docs": ""
+      }
+    }
+  ]
+}

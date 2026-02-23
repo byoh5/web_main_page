@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Launchpad</title>
+  <meta name="description" content="개발 프로젝트를 한 곳에서 관리하고 연결하는 메인 허브">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">PROJECT HUB</p>
+      <h1>내가 만드는 모든 웹 프로젝트의 메인 화면</h1>
+      <p class="hero-copy">
+        인포링크 스타일로 만든 런치패드입니다. 지금은 정적 데이터(JSON)로 동작하고,
+        나중에는 백엔드/API로 쉽게 전환할 수 있도록 구성했습니다.
+      </p>
+      <div class="hero-meta">
+        <div class="meta-card">
+          <span>총 프로젝트</span>
+          <strong id="total-count">0</strong>
+        </div>
+        <div class="meta-card">
+          <span>진행 중</span>
+          <strong id="active-count">0</strong>
+        </div>
+        <div class="meta-card">
+          <span>마지막 업데이트</span>
+          <strong id="last-updated">-</strong>
+        </div>
+      </div>
+    </header>
+
+    <section class="controls" aria-label="프로젝트 필터">
+      <label class="search">
+        <span class="sr-only">프로젝트 검색</span>
+        <input id="search-input" type="search" placeholder="프로젝트 이름/설명/스택 검색">
+      </label>
+      <div id="type-filters" class="filters" role="list"></div>
+    </section>
+
+    <section class="content">
+      <div class="content-head">
+        <h2>프로젝트 목록</h2>
+        <p id="result-count">0개 표시</p>
+      </div>
+      <ul id="project-grid" class="project-grid" aria-live="polite"></ul>
+      <p id="empty-state" class="empty" hidden>조건에 맞는 프로젝트가 없습니다.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      정적 버전(v1) · GitHub Pages 배포 대상 · 데이터 파일: <code>data/projects.json</code>
+    </p>
+  </footer>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
