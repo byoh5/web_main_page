@@ -1,9 +1,19 @@
 {
   "projects": [
     {
-      "id": "main-page",
-      "name": "Dev Launchpad",
-      "description": "개별 웹앱을 모아 보여주는 메인 허브 페이지",
+      "id": "daily-utility-launchpad",
+      "name": {
+        "ko": "생활 유틸 런치패드",
+        "en": "Daily Utility Launchpad",
+        "ja": "日常ユーティリティ・ランチパッド",
+        "zh": "日常工具启动台"
+      },
+      "description": {
+        "ko": "TWOBYONE이 만든 실생활 도구를 검색하고 바로 실행하는 메인 허브",
+        "en": "Main hub to search and instantly launch practical tools built by TWOBYONE",
+        "ja": "TWOBYONEの実用ツールを検索してすぐ使えるメインハブ",
+        "zh": "用于搜索并快速使用 TWOBYONE 实用工具的主页"
+      },
       "type": "web",
       "status": "active",
       "stack": ["HTML", "CSS", "JavaScript"],
@@ -15,13 +25,23 @@
       }
     },
     {
-      "id": "portfolio-kit",
-      "name": "Portfolio Kit",
-      "description": "프로젝트 소개 템플릿과 컴포넌트를 재사용 가능한 형태로 구성",
+      "id": "quick-calc-pack",
+      "name": {
+        "ko": "퀵 계산기 팩",
+        "en": "Quick Calculator Pack",
+        "ja": "クイック計算パック",
+        "zh": "快速计算工具包"
+      },
+      "description": {
+        "ko": "환율, 퍼센트, 단위 변환 등 자주 쓰는 계산 도구 모음",
+        "en": "Collection of frequent calculators: currency, percentage, and unit conversions",
+        "ja": "為替・割合・単位変換など、よく使う計算ツールのセット",
+        "zh": "常用计算工具集合：汇率、百分比、单位换算等"
+      },
       "type": "tool",
       "status": "planning",
       "stack": ["TypeScript", "Vite"],
-      "updatedAt": "2026-02-20",
+      "updatedAt": "2026-02-21",
       "links": {
         "service": "",
         "repo": "#",
@@ -29,13 +49,23 @@
       }
     },
     {
-      "id": "ai-helper",
-      "name": "AI Helper",
-      "description": "반복 작업을 줄이는 사내 도구형 챗 인터페이스 실험",
-      "type": "ai",
+      "id": "local-note-cleaner",
+      "name": {
+        "ko": "로컬 메모 정리기",
+        "en": "Local Note Cleaner",
+        "ja": "ローカルメモ整理ツール",
+        "zh": "本地笔记整理器"
+      },
+      "description": {
+        "ko": "텍스트를 빠르게 정리, 포맷, 정규화하는 개인정보 비수집 도구",
+        "en": "Privacy-friendly text utility for quick cleanup, formatting, and normalization",
+        "ja": "個人情報を収集しない、テキスト整形・正規化ツール",
+        "zh": "不收集个人信息的文本清理与格式化工具"
+      },
+      "type": "web",
       "status": "planning",
       "stack": ["Next.js", "OpenAI API"],
-      "updatedAt": "2026-02-18",
+      "updatedAt": "2026-02-19",
       "links": {
         "service": "",
         "repo": "#",
@@ -43,9 +73,19 @@
       }
     },
     {
-      "id": "mobile-viewer",
-      "name": "Mobile Viewer",
-      "description": "모바일 UX 테스트용 프리뷰 빌드",
+      "id": "mobile-preview-lab",
+      "name": {
+        "ko": "모바일 프리뷰 랩",
+        "en": "Mobile Preview Lab",
+        "ja": "モバイルプレビューラボ",
+        "zh": "移动端预览实验室"
+      },
+      "description": {
+        "ko": "모바일 화면/터치 동작을 점검하는 PWA 테스트 페이지",
+        "en": "PWA test page for validating mobile layout and touch interactions",
+        "ja": "モバイル表示とタッチ操作を確認するPWAテストページ",
+        "zh": "用于验证移动布局与触控交互的 PWA 测试页"
+      },
       "type": "mobile",
       "status": "archived",
       "stack": ["React", "PWA"],

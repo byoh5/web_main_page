@@ -1,0 +1,2104 @@
+{
+  "projects": [
+    {
+      "id": "jsonformatter",
+      "name": {
+        "en": "JSON Formatter & Validator"
+      },
+      "description": {
+        "en": "Web-based utility tool: JSON Formatter & Validator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://jsonformatter.org/json-viewer",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "codebeautify-json",
+      "name": {
+        "en": "CodeBeautify JSON Viewer"
+      },
+      "description": {
+        "en": "Web-based utility tool: CodeBeautify JSON Viewer"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://codebeautify.org/jsonviewer",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jsonlint",
+      "name": {
+        "en": "JSONLint Validator"
+      },
+      "description": {
+        "en": "Web-based utility tool: JSONLint Validator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://jsonlint.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jsonhero",
+      "name": {
+        "en": "JSON Hero"
+      },
+      "description": {
+        "en": "Web-based utility tool: JSON Hero"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://jsonhero.io/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "csvjson",
+      "name": {
+        "en": "CSV to JSON Converter"
+      },
+      "description": {
+        "en": "Web-based utility tool: CSV to JSON Converter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://csvjson.com/csv2json",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "convertcsv",
+      "name": {
+        "en": "ConvertCSV"
+      },
+      "description": {
+        "en": "Web-based utility tool: ConvertCSV"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.convertcsv.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "tableconvert",
+      "name": {
+        "en": "TableConvert"
+      },
+      "description": {
+        "en": "Web-based utility tool: TableConvert"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://tableconvert.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "sqlformat",
+      "name": {
+        "en": "SQL Formatter"
+      },
+      "description": {
+        "en": "Web-based utility tool: SQL Formatter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://sqlformat.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "xmlformatter",
+      "name": {
+        "en": "XML Formatter"
+      },
+      "description": {
+        "en": "Web-based utility tool: XML Formatter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.freeformatter.com/xml-formatter.html",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "yamlvalidator",
+      "name": {
+        "en": "YAML Validator"
+      },
+      "description": {
+        "en": "Web-based utility tool: YAML Validator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://codebeautify.org/yaml-validator",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "base64encode",
+      "name": {
+        "en": "Base64 Encode/Decode"
+      },
+      "description": {
+        "en": "Web-based utility tool: Base64 Encode/Decode"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.base64encode.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "urldecoder",
+      "name": {
+        "en": "URL Encode/Decode"
+      },
+      "description": {
+        "en": "Web-based utility tool: URL Encode/Decode"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.urlencoder.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jwtio",
+      "name": {
+        "en": "JWT Decoder"
+      },
+      "description": {
+        "en": "Web-based utility tool: JWT Decoder"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://jwt.io/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "uuidgenerator",
+      "name": {
+        "en": "UUID Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: UUID Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.uuidgenerator.net/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "md5hash",
+      "name": {
+        "en": "MD5 Hash Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: MD5 Hash Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.md5hashgenerator.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "sha256",
+      "name": {
+        "en": "SHA256 Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: SHA256 Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://emn178.github.io/online-tools/sha256.html",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "regex101",
+      "name": {
+        "en": "Regex101"
+      },
+      "description": {
+        "en": "Web-based utility tool: Regex101"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://regex101.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "regexr",
+      "name": {
+        "en": "RegExr"
+      },
+      "description": {
+        "en": "Web-based utility tool: RegExr"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://regexr.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "diffchecker",
+      "name": {
+        "en": "Diffchecker"
+      },
+      "description": {
+        "en": "Web-based utility tool: Diffchecker"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.diffchecker.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "codebeautify-html",
+      "name": {
+        "en": "HTML Beautifier"
+      },
+      "description": {
+        "en": "Web-based utility tool: HTML Beautifier"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://codebeautify.org/htmlviewer",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jsbeautifier",
+      "name": {
+        "en": "JS Beautifier"
+      },
+      "description": {
+        "en": "Web-based utility tool: JS Beautifier"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://beautifier.io/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "cssminifier",
+      "name": {
+        "en": "CSS Minifier"
+      },
+      "description": {
+        "en": "Web-based utility tool: CSS Minifier"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://cssminifier.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "htmlminifier",
+      "name": {
+        "en": "HTML Minifier"
+      },
+      "description": {
+        "en": "Web-based utility tool: HTML Minifier"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.minifier.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "webhooktester",
+      "name": {
+        "en": "Webhook.site"
+      },
+      "description": {
+        "en": "Web-based utility tool: Webhook.site"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://webhook.site/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "reqbin",
+      "name": {
+        "en": "ReqBin API Tester"
+      },
+      "description": {
+        "en": "Web-based utility tool: ReqBin API Tester"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://reqbin.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "postman-web",
+      "name": {
+        "en": "Postman Web"
+      },
+      "description": {
+        "en": "Web-based utility tool: Postman Web"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://web.postman.co/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "tinypng",
+      "name": {
+        "en": "TinyPNG"
+      },
+      "description": {
+        "en": "Web-based utility tool: TinyPNG"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://tinypng.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "iloveimg",
+      "name": {
+        "en": "iLoveIMG"
+      },
+      "description": {
+        "en": "Web-based utility tool: iLoveIMG"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.iloveimg.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "removebg",
+      "name": {
+        "en": "Remove.bg"
+      },
+      "description": {
+        "en": "Web-based utility tool: Remove.bg"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.remove.bg/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "squoosh",
+      "name": {
+        "en": "Squoosh"
+      },
+      "description": {
+        "en": "Web-based utility tool: Squoosh"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://squoosh.app/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "canva-resize",
+      "name": {
+        "en": "Canva Resize Tool"
+      },
+      "description": {
+        "en": "Web-based utility tool: Canva Resize Tool"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.canva.com/resize-image/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "photopea",
+      "name": {
+        "en": "Photopea"
+      },
+      "description": {
+        "en": "Web-based utility tool: Photopea"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.photopea.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "ilovepdf",
+      "name": {
+        "en": "iLovePDF"
+      },
+      "description": {
+        "en": "Web-based utility tool: iLovePDF"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.ilovepdf.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "smallpdf",
+      "name": {
+        "en": "SmallPDF"
+      },
+      "description": {
+        "en": "Web-based utility tool: SmallPDF"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://smallpdf.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "pdf2go",
+      "name": {
+        "en": "PDF2Go"
+      },
+      "description": {
+        "en": "Web-based utility tool: PDF2Go"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.pdf2go.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "sejda",
+      "name": {
+        "en": "Sejda PDF"
+      },
+      "description": {
+        "en": "Web-based utility tool: Sejda PDF"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.sejda.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "pdfescape",
+      "name": {
+        "en": "PDFescape"
+      },
+      "description": {
+        "en": "Web-based utility tool: PDFescape"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.pdfescape.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "wordcounter",
+      "name": {
+        "en": "WordCounter"
+      },
+      "description": {
+        "en": "Web-based utility tool: WordCounter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://wordcounter.net/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "lipsum",
+      "name": {
+        "en": "Lorem Ipsum Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: Lorem Ipsum Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.lipsum.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "textcompare",
+      "name": {
+        "en": "Text Compare"
+      },
+      "description": {
+        "en": "Web-based utility tool: Text Compare"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://text-compare.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "onlinestringtools",
+      "name": {
+        "en": "Online String Tools"
+      },
+      "description": {
+        "en": "Web-based utility tool: Online String Tools"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://onlinestringtools.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "piliapp-json",
+      "name": {
+        "en": "PiliApp JSON Tool"
+      },
+      "description": {
+        "en": "Web-based utility tool: PiliApp JSON Tool"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://kr.piliapp.com/json/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "qrcode-generator",
+      "name": {
+        "en": "QR Code Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: QR Code Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.the-qrcode-generator.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "barcode-generator",
+      "name": {
+        "en": "Barcode Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: Barcode Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://barcode.tec-it.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "password-generator",
+      "name": {
+        "en": "LastPass Password Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: LastPass Password Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.lastpass.com/features/password-generator",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "random-org",
+      "name": {
+        "en": "Random.org"
+      },
+      "description": {
+        "en": "Web-based utility tool: Random.org"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.random.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "coolors",
+      "name": {
+        "en": "Coolors Palette Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: Coolors Palette Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://coolors.co/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "whois",
+      "name": {
+        "en": "Whois Lookup"
+      },
+      "description": {
+        "en": "Web-based utility tool: Whois Lookup"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://who.is/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "pingtool",
+      "name": {
+        "en": "Ping.eu"
+      },
+      "description": {
+        "en": "Web-based utility tool: Ping.eu"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://ping.eu/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "sslchecker",
+      "name": {
+        "en": "SSL Checker"
+      },
+      "description": {
+        "en": "Web-based utility tool: SSL Checker"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.sslshopper.com/ssl-checker.html",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "gtmetrix",
+      "name": {
+        "en": "GTmetrix"
+      },
+      "description": {
+        "en": "Web-based utility tool: GTmetrix"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://gtmetrix.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "pagespeed",
+      "name": {
+        "en": "Google PageSpeed Insights"
+      },
+      "description": {
+        "en": "Web-based utility tool: Google PageSpeed Insights"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://pagespeed.web.dev/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "unitconverters",
+      "name": {
+        "en": "UnitConverters"
+      },
+      "description": {
+        "en": "Web-based utility tool: UnitConverters"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.unitconverters.net/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "xe-currency",
+      "name": {
+        "en": "XE Currency Converter"
+      },
+      "description": {
+        "en": "Web-based utility tool: XE Currency Converter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.xe.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "timeanddate",
+      "name": {
+        "en": "Time and Date Converter"
+      },
+      "description": {
+        "en": "Web-based utility tool: Time and Date Converter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.timeanddate.com/worldclock/converter.html",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "epochconverter",
+      "name": {
+        "en": "Epoch Converter"
+      },
+      "description": {
+        "en": "Web-based utility tool: Epoch Converter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.epochconverter.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "stackedit",
+      "name": {
+        "en": "StackEdit"
+      },
+      "description": {
+        "en": "Web-based utility tool: StackEdit"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://stackedit.io/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "dillinger",
+      "name": {
+        "en": "Dillinger Markdown Editor"
+      },
+      "description": {
+        "en": "Web-based utility tool: Dillinger Markdown Editor"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://dillinger.io/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "markdownlivepreview",
+      "name": {
+        "en": "Markdown Live Preview"
+      },
+      "description": {
+        "en": "Web-based utility tool: Markdown Live Preview"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://markdownlivepreview.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jsonformatter-1",
+      "name": {
+        "en": "JSON Formatter & Validator"
+      },
+      "description": {
+        "en": "Web-based utility tool: JSON Formatter & Validator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://jsonformatter.org/json-viewer",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "codebeautify-json-1",
+      "name": {
+        "en": "CodeBeautify JSON Viewer"
+      },
+      "description": {
+        "en": "Web-based utility tool: CodeBeautify JSON Viewer"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://codebeautify.org/jsonviewer",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jsonlint-1",
+      "name": {
+        "en": "JSONLint Validator"
+      },
+      "description": {
+        "en": "Web-based utility tool: JSONLint Validator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://jsonlint.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jsonhero-1",
+      "name": {
+        "en": "JSON Hero"
+      },
+      "description": {
+        "en": "Web-based utility tool: JSON Hero"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://jsonhero.io/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "csvjson-1",
+      "name": {
+        "en": "CSV to JSON Converter"
+      },
+      "description": {
+        "en": "Web-based utility tool: CSV to JSON Converter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://csvjson.com/csv2json",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "convertcsv-1",
+      "name": {
+        "en": "ConvertCSV"
+      },
+      "description": {
+        "en": "Web-based utility tool: ConvertCSV"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.convertcsv.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "tableconvert-1",
+      "name": {
+        "en": "TableConvert"
+      },
+      "description": {
+        "en": "Web-based utility tool: TableConvert"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://tableconvert.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "sqlformat-1",
+      "name": {
+        "en": "SQL Formatter"
+      },
+      "description": {
+        "en": "Web-based utility tool: SQL Formatter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://sqlformat.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "xmlformatter-1",
+      "name": {
+        "en": "XML Formatter"
+      },
+      "description": {
+        "en": "Web-based utility tool: XML Formatter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.freeformatter.com/xml-formatter.html",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "yamlvalidator-1",
+      "name": {
+        "en": "YAML Validator"
+      },
+      "description": {
+        "en": "Web-based utility tool: YAML Validator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://codebeautify.org/yaml-validator",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "base64encode-1",
+      "name": {
+        "en": "Base64 Encode/Decode"
+      },
+      "description": {
+        "en": "Web-based utility tool: Base64 Encode/Decode"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.base64encode.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "urldecoder-1",
+      "name": {
+        "en": "URL Encode/Decode"
+      },
+      "description": {
+        "en": "Web-based utility tool: URL Encode/Decode"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.urlencoder.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jwtio-1",
+      "name": {
+        "en": "JWT Decoder"
+      },
+      "description": {
+        "en": "Web-based utility tool: JWT Decoder"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://jwt.io/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "uuidgenerator-1",
+      "name": {
+        "en": "UUID Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: UUID Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.uuidgenerator.net/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "md5hash-1",
+      "name": {
+        "en": "MD5 Hash Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: MD5 Hash Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.md5hashgenerator.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "sha256-1",
+      "name": {
+        "en": "SHA256 Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: SHA256 Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://emn178.github.io/online-tools/sha256.html",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "regex101-1",
+      "name": {
+        "en": "Regex101"
+      },
+      "description": {
+        "en": "Web-based utility tool: Regex101"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://regex101.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "regexr-1",
+      "name": {
+        "en": "RegExr"
+      },
+      "description": {
+        "en": "Web-based utility tool: RegExr"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://regexr.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "diffchecker-1",
+      "name": {
+        "en": "Diffchecker"
+      },
+      "description": {
+        "en": "Web-based utility tool: Diffchecker"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.diffchecker.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "codebeautify-html-1",
+      "name": {
+        "en": "HTML Beautifier"
+      },
+      "description": {
+        "en": "Web-based utility tool: HTML Beautifier"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://codebeautify.org/htmlviewer",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "jsbeautifier-1",
+      "name": {
+        "en": "JS Beautifier"
+      },
+      "description": {
+        "en": "Web-based utility tool: JS Beautifier"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://beautifier.io/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "cssminifier-1",
+      "name": {
+        "en": "CSS Minifier"
+      },
+      "description": {
+        "en": "Web-based utility tool: CSS Minifier"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://cssminifier.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "htmlminifier-1",
+      "name": {
+        "en": "HTML Minifier"
+      },
+      "description": {
+        "en": "Web-based utility tool: HTML Minifier"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.minifier.org/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "webhooktester-1",
+      "name": {
+        "en": "Webhook.site"
+      },
+      "description": {
+        "en": "Web-based utility tool: Webhook.site"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://webhook.site/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "reqbin-1",
+      "name": {
+        "en": "ReqBin API Tester"
+      },
+      "description": {
+        "en": "Web-based utility tool: ReqBin API Tester"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://reqbin.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "postman-web-1",
+      "name": {
+        "en": "Postman Web"
+      },
+      "description": {
+        "en": "Web-based utility tool: Postman Web"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://web.postman.co/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "tinypng-1",
+      "name": {
+        "en": "TinyPNG"
+      },
+      "description": {
+        "en": "Web-based utility tool: TinyPNG"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://tinypng.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "iloveimg-1",
+      "name": {
+        "en": "iLoveIMG"
+      },
+      "description": {
+        "en": "Web-based utility tool: iLoveIMG"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.iloveimg.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "removebg-1",
+      "name": {
+        "en": "Remove.bg"
+      },
+      "description": {
+        "en": "Web-based utility tool: Remove.bg"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.remove.bg/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "squoosh-1",
+      "name": {
+        "en": "Squoosh"
+      },
+      "description": {
+        "en": "Web-based utility tool: Squoosh"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://squoosh.app/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "canva-resize-1",
+      "name": {
+        "en": "Canva Resize Tool"
+      },
+      "description": {
+        "en": "Web-based utility tool: Canva Resize Tool"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.canva.com/resize-image/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "photopea-1",
+      "name": {
+        "en": "Photopea"
+      },
+      "description": {
+        "en": "Web-based utility tool: Photopea"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.photopea.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "ilovepdf-1",
+      "name": {
+        "en": "iLovePDF"
+      },
+      "description": {
+        "en": "Web-based utility tool: iLovePDF"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.ilovepdf.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "smallpdf-1",
+      "name": {
+        "en": "SmallPDF"
+      },
+      "description": {
+        "en": "Web-based utility tool: SmallPDF"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://smallpdf.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "pdf2go-1",
+      "name": {
+        "en": "PDF2Go"
+      },
+      "description": {
+        "en": "Web-based utility tool: PDF2Go"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.pdf2go.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "sejda-1",
+      "name": {
+        "en": "Sejda PDF"
+      },
+      "description": {
+        "en": "Web-based utility tool: Sejda PDF"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.sejda.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "pdfescape-1",
+      "name": {
+        "en": "PDFescape"
+      },
+      "description": {
+        "en": "Web-based utility tool: PDFescape"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.pdfescape.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "wordcounter-1",
+      "name": {
+        "en": "WordCounter"
+      },
+      "description": {
+        "en": "Web-based utility tool: WordCounter"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://wordcounter.net/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "lipsum-1",
+      "name": {
+        "en": "Lorem Ipsum Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: Lorem Ipsum Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.lipsum.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "textcompare-1",
+      "name": {
+        "en": "Text Compare"
+      },
+      "description": {
+        "en": "Web-based utility tool: Text Compare"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://text-compare.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "onlinestringtools-1",
+      "name": {
+        "en": "Online String Tools"
+      },
+      "description": {
+        "en": "Web-based utility tool: Online String Tools"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://onlinestringtools.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "piliapp-json-1",
+      "name": {
+        "en": "PiliApp JSON Tool"
+      },
+      "description": {
+        "en": "Web-based utility tool: PiliApp JSON Tool"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://kr.piliapp.com/json/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "qrcode-generator-1",
+      "name": {
+        "en": "QR Code Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: QR Code Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.the-qrcode-generator.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "barcode-generator-1",
+      "name": {
+        "en": "Barcode Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: Barcode Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://barcode.tec-it.com/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "password-generator-1",
+      "name": {
+        "en": "LastPass Password Generator"
+      },
+      "description": {
+        "en": "Web-based utility tool: LastPass Password Generator"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.lastpass.com/features/password-generator",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "random-org-1",
+      "name": {
+        "en": "Random.org"
+      },
+      "description": {
+        "en": "Web-based utility tool: Random.org"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-23",
+      "links": {
+        "service": "https://www.random.org/",
+        "repo": "",
+        "docs": ""
+      }
+    }
+  ]
+}
