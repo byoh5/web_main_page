@@ -189,28 +189,35 @@ function createCardMarkup(project) {
 }
 
 function hydrateLivePreview() {
-  const iframe = els.card.querySelector(".preview-iframe");
-  const loading = els.card.querySelector(".preview-loading");
-  if (!iframe || !loading) {
+  const wraps = els.card.querySelectorAll(".preview-frame-wrap");
+  if (!wraps.length) {
     return;
   }
 
-  const hideLoading = () => {
-    loading.classList.add("is-hidden");
-  };
+  wraps.forEach((wrap) => {
+    const iframe = wrap.querySelector(".preview-iframe");
+    const loading = wrap.querySelector(".preview-loading");
+    if (!iframe || !loading) {
+      return;
+    }
 
-  const timeoutId = setTimeout(hideLoading, 8000);
+    const hideLoading = () => {
+      loading.classList.add("is-hidden");
+    };
 
-  iframe.addEventListener("load", () => {
-    clearTimeout(timeoutId);
-    hideLoading();
-  }, { once: true });
+    const timeoutId = setTimeout(hideLoading, 8000);
 
-  iframe.addEventListener("error", () => {
-    clearTimeout(timeoutId);
-    loading.textContent = "미리보기를 불러올 수 없습니다. '페이지 열기'를 이용해주세요.";
-    loading.classList.add("is-error");
-  }, { once: true });
+    iframe.addEventListener("load", () => {
+      clearTimeout(timeoutId);
+      hideLoading();
+    }, { once: true });
+
+    iframe.addEventListener("error", () => {
+      clearTimeout(timeoutId);
+      loading.textContent = "미리보기를 불러올 수 없습니다. '페이지 열기'를 이용해주세요.";
+      loading.classList.add("is-error");
+    }, { once: true });
+  });
 }
 
 function renderEmptyState() {
@@ -221,15 +228,16 @@ function renderEmptyState() {
   `;
 }
 
-function renderFeaturedCard(projects) {
+function renderProjectCards(projects) {
   if (!projects.length) {
     renderEmptyState();
     return;
   }
 
   const normalized = projects.map((project, index) => normalizeProject(project, index));
-  const featured = normalized.find((project) => project.status === "active") ?? normalized[0];
-  els.card.innerHTML = createCardMarkup(featured);
+  els.card.innerHTML = normalized
+    .map((project) => `<section class="featured-card-item">${createCardMarkup(project)}</section>`)
+    .join("");
   hydrateLivePreview();
 }
 
@@ -240,7 +248,7 @@ function renderTotal(projects) {
 async function init() {
   const projects = await loadProjects();
   renderTotal(projects);
-  renderFeaturedCard(projects);
+  renderProjectCards(projects);
 }
 
 init();

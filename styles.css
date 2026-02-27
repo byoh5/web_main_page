@@ -141,8 +141,13 @@ body {
   font-size: 0.92rem;
 }
 
-.featured-card {
+.featured-card-list {
   margin-top: 18px;
+  display: grid;
+  gap: 16px;
+}
+
+.featured-card-item {
   min-height: 320px;
   display: grid;
   grid-template-columns: 1.06fr 1fr;
@@ -450,7 +455,7 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .featured-card {
+  .featured-card-item {
     grid-template-columns: 1fr;
   }
 
