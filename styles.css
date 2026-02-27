@@ -457,10 +457,17 @@ body {
 
   .featured-card-item {
     grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 12px;
+  }
+
+  .preview-canvas-live {
+    padding: 10px;
+    gap: 6px;
   }
 
   .preview-frame-wrap {
-    height: 320px;
+    height: clamp(180px, 44vw, 220px);
   }
 }
 
@@ -482,7 +489,15 @@ body {
     width: auto;
   }
 
+  .preview-label {
+    font-size: 0.66rem;
+  }
+
+  .preview-domain {
+    font-size: 0.8rem;
+  }
+
   .preview-frame-wrap {
-    height: 260px;
+    height: clamp(140px, 42vw, 170px);
   }
 }
