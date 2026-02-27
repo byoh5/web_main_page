@@ -167,6 +167,34 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "oneplot",
+      "name": {
+        "ko": "OnePlot",
+        "en": "OnePlot"
+      },
+      "description": {
+        "ko": "CSV 데이터를 업로드해 산점도와 회귀선을 생성하고 스타일 템플릿으로 내보내는 그래프 제작 웹 도구",
+        "en": "Web plotting tool that generates scatter/regression charts from CSV data and exports with style presets"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "keywords": [
+        "plot",
+        "scatter",
+        "regression",
+        "csv"
+      ],
+      "updatedAt": "2026-02-27",
+      "links": {
+        "service": "https://byoh5.github.io/oneplot/",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
