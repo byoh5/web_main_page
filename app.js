@@ -1,5 +1,5 @@
 const CONFIG = {
-  dataUrl: "./data/web_utility_tools_100_plus.json",
+  dataUrl: "./data/web_page_list_template.json",
   remoteSourceEnabled: false,
   remoteUrl: ""
 };
