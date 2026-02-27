@@ -2099,6 +2099,28 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "gugudan-quiz-playground",
+      "name": {
+        "ko": "구구단 퀴즈 놀이터",
+        "en": "Multiplication Quiz Playground"
+      },
+      "description": {
+        "ko": "2단~20단 반복학습, 오답 복습, 챌린지 타이머와 학습 이력 분석을 제공하는 무료 곱셈 학습 웹앱",
+        "en": "Free multiplication learning web app with 2-20 tables practice, mistake review, challenge timer, and progress tracking"
+      },
+      "type": "web",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "updatedAt": "2026-02-27",
+      "links": {
+        "service": "https://byoh5.github.io/index.html",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
