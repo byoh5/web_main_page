@@ -55,6 +55,34 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "kr-passport-photo-cutter",
+      "name": {
+        "ko": "대한민국 여권사진 컷팅",
+        "en": "KR Passport Photo Cutter"
+      },
+      "description": {
+        "ko": "여권사진을 3.5x4.5 비율로 조정하고 413x531 JPG로 저장할 수 있는 웹 도구",
+        "en": "Web tool to crop Korean passport photos to 3.5x4.5 ratio and export 413x531 JPG"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "keywords": [
+        "passport",
+        "photo",
+        "crop",
+        "image"
+      ],
+      "updatedAt": "2026-02-27",
+      "links": {
+        "service": "https://byoh5.github.io/passport_photo_cut/",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
