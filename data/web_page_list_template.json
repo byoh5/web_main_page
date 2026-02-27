@@ -139,6 +139,34 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "lotto-number-generator",
+      "name": {
+        "ko": "로또 번호 생성기",
+        "en": "Lotto Number Generator"
+      },
+      "description": {
+        "ko": "로또 번호를 빠르게 생성하고 저장할 수 있는 간단한 웹 도구",
+        "en": "Simple web tool to quickly generate and save lotto numbers"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "keywords": [
+        "lotto",
+        "number",
+        "generator",
+        "random"
+      ],
+      "updatedAt": "2026-02-27",
+      "links": {
+        "service": "https://byoh5.github.io/github_pages/",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
