@@ -129,6 +129,41 @@ body {
   box-shadow: var(--shadow);
 }
 
+.company-footer {
+  position: relative;
+  z-index: 1;
+  width: min(1080px, 92vw);
+  margin: 0 auto 36px;
+}
+
+.company-footer-inner {
+  border: 1px solid rgba(217, 227, 239, 0.9);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.86);
+  box-shadow: 0 14px 34px rgba(21, 32, 51, 0.08);
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.company-mark {
+  margin: 0;
+  font-family: "Sora", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #243f62;
+}
+
+.company-note {
+  margin: 0;
+  font-size: 0.78rem;
+  color: #5f7490;
+  white-space: nowrap;
+}
+
 .section-title {
   margin: 0;
   font-family: "Sora", sans-serif;
@@ -468,6 +503,16 @@ body {
 
   .preview-frame-wrap {
     height: clamp(180px, 44vw, 220px);
+  }
+
+  .company-footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .company-note {
+    white-space: normal;
   }
 }
 
