@@ -115,26 +115,51 @@ async function loadProjects() {
 function createCardMarkup(project) {
   const hostname = parseHostname(project.serviceUrl);
   const isLinked = Boolean(project.serviceUrl);
+  const previewMarkup = isLinked
+    ? `
+      <div class="preview-shell">
+        <div class="preview-toolbar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="preview-canvas preview-canvas-live">
+          <p class="preview-label">LIVE SCREEN</p>
+          <p class="preview-domain">${escapeHtml(hostname)}</p>
+          <div class="preview-frame-wrap">
+            <div class="preview-loading">실시간 화면 불러오는 중...</div>
+            <iframe
+              class="preview-iframe"
+              title="${escapeHtml(project.name)} 미리보기"
+              src="${escapeHtml(project.serviceUrl)}"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    `
+    : `
+      <div class="preview-shell" aria-hidden="true">
+        <div class="preview-toolbar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="preview-canvas">
+          <p class="preview-label">BASIC SCREEN</p>
+          <h3 class="preview-title">${escapeHtml(project.name)}</h3>
+          <p class="preview-domain">${escapeHtml(hostname)}</p>
+          <div class="preview-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    `;
   const actionMarkup = isLinked
     ? `<a class="action-link" href="${escapeHtml(project.serviceUrl)}" target="_blank" rel="noreferrer">페이지 열기</a>`
     : '<span class="action-disabled">링크 준비 중</span>';
 
   return `
-    <div class="preview-shell" aria-hidden="true">
-      <div class="preview-toolbar">
-        <span></span><span></span><span></span>
-      </div>
-      <div class="preview-canvas">
-        <p class="preview-label">BASIC SCREEN</p>
-        <h3 class="preview-title">${escapeHtml(project.name)}</h3>
-        <p class="preview-domain">${escapeHtml(hostname)}</p>
-        <div class="preview-lines">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div>
+    ${previewMarkup}
 
     <div class="card-content">
       <div class="meta-row">
@@ -163,6 +188,31 @@ function createCardMarkup(project) {
   `;
 }
 
+function hydrateLivePreview() {
+  const iframe = els.card.querySelector(".preview-iframe");
+  const loading = els.card.querySelector(".preview-loading");
+  if (!iframe || !loading) {
+    return;
+  }
+
+  const hideLoading = () => {
+    loading.classList.add("is-hidden");
+  };
+
+  const timeoutId = setTimeout(hideLoading, 8000);
+
+  iframe.addEventListener("load", () => {
+    clearTimeout(timeoutId);
+    hideLoading();
+  }, { once: true });
+
+  iframe.addEventListener("error", () => {
+    clearTimeout(timeoutId);
+    loading.textContent = "미리보기를 불러올 수 없습니다. '페이지 열기'를 이용해주세요.";
+    loading.classList.add("is-error");
+  }, { once: true });
+}
+
 function renderEmptyState() {
   els.card.innerHTML = `
     <div class="empty-card">
@@ -180,6 +230,7 @@ function renderFeaturedCard(projects) {
   const normalized = projects.map((project, index) => normalizeProject(project, index));
   const featured = normalized.find((project) => project.status === "active") ?? normalized[0];
   els.card.innerHTML = createCardMarkup(featured);
+  hydrateLivePreview();
 }
 
 function renderTotal(projects) {
