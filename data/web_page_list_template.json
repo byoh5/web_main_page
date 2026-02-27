@@ -27,6 +27,34 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "dothegi-whack-a-mole",
+      "name": {
+        "ko": "DOTHEGI - 두더지 잡기",
+        "en": "DOTHEGI - Whack-a-Mole"
+      },
+      "description": {
+        "ko": "점수, 타이머, 스테이지, 콤보와 코인 시스템을 갖춘 웹 기반 두더지 잡기 게임",
+        "en": "Web-based whack-a-mole game with score, timer, stage progression, combo, and coin system"
+      },
+      "type": "game",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "keywords": [
+        "game",
+        "arcade",
+        "whack-a-mole",
+        "canvas"
+      ],
+      "updatedAt": "2026-02-27",
+      "links": {
+        "service": "https://byoh5.github.io/DOTHEGI",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
