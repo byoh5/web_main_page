@@ -111,6 +111,34 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "hanjastep",
+      "name": {
+        "ko": "HanjaStep",
+        "en": "HanjaStep"
+      },
+      "description": {
+        "ko": "한자 학습, 퀴즈, 복습, 조회, 레벨 진단과 어휘 기능을 제공하는 한자 학습 웹앱",
+        "en": "Hanja learning web app with study, quiz, review, lookup, placement, and vocabulary features"
+      },
+      "type": "web",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "keywords": [
+        "education",
+        "hanja",
+        "quiz",
+        "vocabulary"
+      ],
+      "updatedAt": "2026-02-27",
+      "links": {
+        "service": "https://byoh5.github.io/hanja/",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
