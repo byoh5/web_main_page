@@ -195,6 +195,34 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "facedetector-web",
+      "name": {
+        "ko": "FaceDetector Web",
+        "en": "FaceDetector Web"
+      },
+      "description": {
+        "ko": "웹캠 또는 이미지에서 얼굴을 감지하는 브라우저 기반 얼굴 탐지 웹앱",
+        "en": "Browser-based face detection web app for detecting faces from webcam or images"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "keywords": [
+        "face-detection",
+        "vision",
+        "webcam",
+        "image"
+      ],
+      "updatedAt": "2026-02-28",
+      "links": {
+        "service": "https://byoh5.github.io/faceDetector_web/",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
