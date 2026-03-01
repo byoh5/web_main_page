@@ -287,6 +287,14 @@ body {
   -webkit-box-orient: vertical;
 }
 
+.featured-card-item.is-expanded .compact-description {
+  overflow: visible;
+  text-overflow: clip;
+  display: block;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: initial;
+}
+
 .compact-toggle {
   border: 1px solid #d2deec;
   background: #f3f8ff;
