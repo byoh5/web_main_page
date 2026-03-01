@@ -198,9 +198,16 @@ body {
 
 .card-compact {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
   padding: 14px 16px;
+}
+
+.compact-copy {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  gap: 4px;
 }
 
 .project-icon-link {
@@ -262,12 +269,22 @@ body {
 
 .compact-title {
   margin: 0;
-  flex: 1;
-  min-width: 0;
   font-family: "Sora", sans-serif;
   font-size: clamp(1rem, 1.7vw, 1.18rem);
   line-height: 1.28;
   overflow-wrap: anywhere;
+}
+
+.compact-description {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .compact-toggle {
@@ -284,6 +301,7 @@ body {
   color: #2f4e6e;
   cursor: pointer;
   flex-shrink: 0;
+  margin-top: 2px;
   transition: background-color 150ms ease, border-color 150ms ease;
 }
 
@@ -402,12 +420,6 @@ body {
   color: #5b6f86;
 }
 
-.card-description {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.55;
-}
-
 .preview-shell-placeholder {
   background: radial-gradient(circle at 14% 12%, rgba(16, 121, 209, 0.12), transparent 45%),
     linear-gradient(180deg, #f8fbff 0%, #f2f7ff 100%);
@@ -481,6 +493,10 @@ body {
     font-size: 1rem;
   }
 
+  .compact-description {
+    font-size: 0.86rem;
+  }
+
   .compact-toggle {
     width: 36px;
     height: 36px;
@@ -523,6 +539,10 @@ body {
 
   .compact-title {
     font-size: 0.95rem;
+  }
+
+  .compact-description {
+    font-size: 0.82rem;
   }
 
   .compact-toggle {

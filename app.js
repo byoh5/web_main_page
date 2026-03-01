@@ -180,7 +180,10 @@ function createCardMarkup(project, index) {
   return `
     <header class="card-compact">
       ${iconMarkup}
-      <h3 class="compact-title">${escapeHtml(project.name)}</h3>
+      <div class="compact-copy">
+        <h3 class="compact-title">${escapeHtml(project.name)}</h3>
+        <p class="compact-description">${escapeHtml(project.description)}</p>
+      </div>
       <button
         class="compact-toggle"
         type="button"
@@ -193,7 +196,6 @@ function createCardMarkup(project, index) {
     </header>
 
     <div class="card-expandable" id="${escapeHtml(detailId)}" hidden>
-      <p class="card-description">${escapeHtml(project.description)}</p>
       ${createPreviewMarkup(project)}
     </div>
   `;
