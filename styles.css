@@ -337,6 +337,10 @@ body {
   background: linear-gradient(180deg, rgba(246, 250, 255, 0.7) 0%, rgba(255, 255, 255, 0.9) 100%);
 }
 
+.card-expandable[hidden] {
+  display: none !important;
+}
+
 .preview-shell {
   border: 1px solid #d0dceb;
   border-radius: 16px;

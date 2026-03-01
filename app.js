@@ -295,6 +295,11 @@ function enableExpandableCards() {
       return;
     }
 
+    // Ensure every card starts collapsed after each render.
+    toggle.setAttribute("aria-expanded", "false");
+    panel.hidden = true;
+    card.classList.remove("is-expanded");
+
     toggle.addEventListener("click", () => {
       const willExpand = toggle.getAttribute("aria-expanded") !== "true";
 
