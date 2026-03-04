@@ -280,6 +280,60 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "sand-wall",
+      "name": {
+        "ko": "Sand Wall",
+        "en": "Sand Wall"
+      },
+      "description": {
+        "ko": "모래 벽 인터랙션을 체험할 수 있는 웹 페이지",
+        "en": "Interactive web page for experiencing the Sand Wall effect"
+      },
+      "type": "web",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "keywords": [
+        "sand-wall",
+        "interactive",
+        "visual"
+      ],
+      "updatedAt": "2026-03-04",
+      "links": {
+        "service": "https://sand-wall-byoh5.vercel.app",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
+      "id": "dist-topaz-ten-59",
+      "name": {
+        "ko": "Dist Topaz Ten 59",
+        "en": "Dist Topaz Ten 59"
+      },
+      "description": {
+        "ko": "Dist Topaz Ten 59 웹 페이지",
+        "en": "Dist Topaz Ten 59 web page"
+      },
+      "type": "web",
+      "status": "active",
+      "stack": [
+        "Web"
+      ],
+      "keywords": [
+        "dist-topaz-ten-59",
+        "vercel",
+        "web"
+      ],
+      "updatedAt": "2026-03-04",
+      "links": {
+        "service": "https://dist-topaz-ten-59.vercel.app",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
