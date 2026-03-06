@@ -254,6 +254,35 @@
       }
     },
     {
+      "id": "opencheckin",
+      "name": {
+        "ko": "OpenCheckin",
+        "en": "OpenCheckin"
+      },
+      "description": {
+        "ko": "회원번호 기반 무인 체크인, 회원 관리, 이용 패턴 분석을 제공하는 오픈소스 기반 웹 키오스크 프로토타입",
+        "en": "Open-source web kiosk prototype for member-number check-in, member management, and usage pattern analytics"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web",
+        "Kiosk"
+      ],
+      "keywords": [
+        "checkin",
+        "kiosk",
+        "member",
+        "analytics"
+      ],
+      "updatedAt": "2026-03-06",
+      "links": {
+        "service": "https://opencheckin.vercel.app/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
       "id": "solar-system",
       "name": {
         "ko": "태양계 시뮬레이터",
