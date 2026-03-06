@@ -283,6 +283,35 @@
       }
     },
     {
+      "id": "openkosk",
+      "name": {
+        "ko": "OpenKosk",
+        "en": "OpenKosk"
+      },
+      "description": {
+        "ko": "소상공인 매장용 오픈소스 웹 키오스크로 메뉴 설정, 주문 흐름, 결제 API 스텁, 직원 호출 기능을 제공하는 프로토타입",
+        "en": "Open-source web kiosk prototype for small businesses with menu setup, ordering flow, payment API stubs, and staff call support"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web",
+        "Kiosk"
+      ],
+      "keywords": [
+        "kiosk",
+        "ordering",
+        "payment",
+        "restaurant"
+      ],
+      "updatedAt": "2026-03-06",
+      "links": {
+        "service": "https://openkosk.vercel.app/",
+        "repo": "",
+        "docs": ""
+      }
+    },
+    {
       "id": "solar-system",
       "name": {
         "ko": "태양계 시뮬레이터",
