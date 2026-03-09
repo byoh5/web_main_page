@@ -392,6 +392,35 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "oil-price-finder",
+      "name": {
+        "ko": "Oil Price Finder",
+        "en": "Oil Price Finder"
+      },
+      "description": {
+        "ko": "위치 기반 반경 주유소 가격 비교 앱",
+        "en": "Location-based app for comparing nearby gas station prices within a selected radius"
+      },
+      "type": "tool",
+      "status": "active",
+      "stack": [
+        "Web",
+        "Location"
+      ],
+      "keywords": [
+        "oil-price",
+        "gas-station",
+        "location",
+        "price-comparison"
+      ],
+      "updatedAt": "2026-03-09",
+      "links": {
+        "service": "https://oil-price-cyan.vercel.app/",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
