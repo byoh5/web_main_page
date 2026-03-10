@@ -421,6 +421,37 @@
         "repo": "",
         "docs": ""
       }
+    },
+    {
+      "id": "seatcheck",
+      "name": {
+        "ko": "AI 순공 로거",
+        "en": "AI Focus Logger"
+      },
+      "description": {
+        "ko": "브라우저 웹캠과 Teachable Machine 모델로 착석 여부를 기록해 순공 추정 시간과 공부 흐름을 보여주는 학습 대시보드",
+        "en": "Study dashboard that uses a browser webcam and a Teachable Machine model to log seated presence, estimate focus time, and visualize study flow"
+      },
+      "type": "ai",
+      "status": "active",
+      "stack": [
+        "Web",
+        "AI",
+        "Teachable Machine"
+      ],
+      "keywords": [
+        "seatcheck",
+        "focus",
+        "study",
+        "dashboard",
+        "webcam"
+      ],
+      "updatedAt": "2026-03-10",
+      "links": {
+        "service": "https://seatcheck-zeta.vercel.app/",
+        "repo": "",
+        "docs": ""
+      }
     }
   ]
 }
